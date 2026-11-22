@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hoàng Anh Pháp - Đồ Án Cá Nhân</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <!-- Đoạn 1: Header / Thanh điều hướng -->
+      <header class="box header-box">
+        <div class="brand">
+          <h1>Hoàng Anh Pháp</h1>
+          <p>Sinh viên CNTT - Trường Đại học Vinh</p>
+        </div>
+        <nav class="nav-list">
+          <a href="#gioi-thieu">Giới thiệu</a>
+          <a href="#dam-me">Đam mê</a>
+          <a href="#ky-nang">Kỹ năng</a>
+          <a href="#du-an">Dự án</a>
+          <a href="#lien-he">Liên hệ</a>
+        </nav>
+      </header>
+
+      <!-- Đoạn 2: Khối chào mừng + Avatar -->
+      <section class="box hero-box">
+        <div class="avatar-wrap">
+          <img
+            src="assets/avatar.jpg"
+            alt="Ảnh đại diện Hoàng Anh Pháp"
+            class="avatar-img"
+          />
+        </div>
+
+        <div class="hero-info">
+          <h2>Xin chào, tôi là Hoàng Anh Pháp!</h2>
+          <p>
+            Sinh viên chuyên ngành Công nghệ Thông tin tại Đại học Vinh. Tôi kết
+            hợp tư duy logic của lập trình, sự bền bỉ khi chạy bộ và tư duy phân
+            tích để phát triển bản thân.
+          </p>
+          <a href="#du-an" class="btn-action">Xem dự án thực tế</a>
+        </div>
+      </section>
+
+      <!-- Đoạn 3: Chia 2 khung ngang - Về bản thân & Đam mê - Sở thích -->
+      <section class="two-cols" id="gioi-thieu">
+        <article class="box">
+          <h3 class="box-title">Về bản thân</h3>
+          <hr class="box-line" />
+          <p class="box-text">
+            Tôi tập trung học tập nền tảng lập trình, cấu trúc dữ liệu &amp;
+            giải thuật, cơ sở dữ liệu và phát triển web. Chạy bộ giúp tôi cân
+            bằng cảm xúc, giữ sức khỏe dẻo dai, còn việc tìm hiểu giao dịch giúp
+            tôi rèn luyện tư duy và kỷ luật.
+          </p>
+        </article>
+
+        <article class="box" id="dam-me">
+          <h3 class="box-title">Đam mê &amp; Sở thích</h3>
+          <hr class="box-line" />
+          <ul class="hobby-list">
+            <li>
+              <strong>Lập trình:</strong> Tạo ra các trò chơi, xây dựng web.
+            </li>
+            <li><strong>Chạy bộ:</strong> Cân bằng cảm xúc, khỏe mạnh.</li>
+            <li><strong>Trader:</strong> Nâng cao tư duy phát triển.</li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- Đoạn 4: Chia 2 khung ngang - Kỹ năng chuyên môn & Dự án đã thực hiện -->
+      <section class="two-cols">
+        <article class="box" id="ky-nang">
+          <h3 class="box-title">Kỹ năng chuyên môn</h3>
+          <hr class="box-line" />
+          <table class="skill-table">
+            <thead>
+              <tr>
+                <th>Lĩnh vực</th>
+                <th>Công nghệ / Công cụ</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Lập trình Web</strong></td>
+                <td>HTML5, CSS3</td>
+              </tr>
+              <tr>
+                <td><strong>Thiết kế UI</strong></td>
+                <td>Figma (Wireframe, Mockup cơ bản)</td>
+              </tr>
+              <tr>
+                <td><strong>Hệ thống &amp; CSDL</strong></td>
+                <td>SQL, C/C++ (OOP, Thuật toán)</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+
+        <article class="box" id="du-an">
+          <h3 class="box-title">Dự án đã thực hiện</h3>
+          <hr class="box-line" />
+          <div class="project-card">
+            <h4>Hệ thống Quản lý Nhân sự (C++ OOP)</h4>
+            <p>
+              Ứng dụng quản lý danh sách nhân sự, hỗ trợ đọc/ghi dữ liệu từ tệp
+              văn bản và hiển thị bảng thống kê trực quan.
+            </p>
+            <span class="project-note"
+              >Công nghệ sử dụng: C++, Lập trình hướng đối tượng, File I/O</span
+            >
+          </div>
+        </article>
+      </section>
+
+      <!-- Đoạn 5: Thông tin liên hệ -->
+      <section class="box contact-box" id="lien-he">
+        <h3 class="box-title">Thông tin liên hệ</h3>
+        <hr class="box-line" />
+        <div class="contact-items">
+          <p><strong>Đơn vị:</strong> Đại học Vinh, Nghệ An</p>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:anhphap.vinh@gmail.com">anhphap.vinh@gmail.com</a>
+          </p>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer-note">
+        <p>Hoàng Anh Pháp - Sinh viên CNTT Đại học Vinh.</p>
+      </footer>
+    </div>
+  </body>
+</html>
